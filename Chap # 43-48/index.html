@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Mobile Phone Lookup</h1>
+    <div class="box">
+        <div class="mobile"><img src="img/Apple-iphone-Xs-max.jpg"><a href="#" onclick="purchase ()"><p>Iphone 11</p></a></div>
+        <div class="mobile"><img src="img/Samsung-Galaxy-S10.jpg"><a href="#" onclick="purchase ()"><p>Samsung</p></a></div>
+        <div class="mobile"><img src="img/Xperia-1-425x425.jpg"><a href="#" onclick="purchase ()"><p>One +</p></a></div>
+        <div class="mobile"><img src="img/Realme 6 pro.jpg"><a href="#" onclick="purchase ()"><p>Samsung</p></a></div>
+    </div>
+    <div>
+        <table id="table">
+            <tr>
+                <th>Index</th>
+                <th>Name</th>
+                <th>Class</th>
+            </tr>
+            <tr>
+                <td id="stdid1"></td>
+                <td id="std1"></td>
+                <td id="stdclass1"></td>
+                <td><button id="btn1" onclick="del('1')">Delete</button></td>
+            </tr>
+            <tr>
+                <td id="stdid2"></td>
+                <td id="std2"></td>
+                <td id="stdclass2"></td>
+                <td><button id="btn2" onclick="del('2')">Delete</button></td>
+            </tr>
+            <tr>
+                <td id="stdid3"></td>
+                <td id="std3"></td>
+                <td id="stdclass3"></td>
+                <td><button id="btn3" onclick="del('3')">Delete</button></td>
+            </tr>
+            <tr>
+                <td id="stdid4"></td>
+                <td id="std4"></td>
+                <td id="stdclass4"></td>
+                <td><button id="btn4" onclick="del('4')">Delete</button></td>
+            </tr>
+        </table>
+    </div>
+    <div>
+        <div>
+            <img id="img" src="img/Realme 6 pro.jpg" onmouseover="changeImg()" onmouseout="oldImg()">
+        </div>
+    </div>
+    <div>
+        <h1 id="counter">0</h1>
+        <button id="Increase" style="margin-left: 42%;" onclick="increase();">Increase counter</button>
+        <button id="Decrease" onclick="decrease();">Decrease counter</button>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

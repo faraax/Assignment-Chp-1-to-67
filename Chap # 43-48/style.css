@@ -1,0 +1,24 @@
+h1 {
+    text-align: center;
+}
+.box {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+img {
+    margin: 20px;
+}
+.mobile {
+    border: 2px solid #000000;
+    border-radius: 20px;
+    width: auto;
+    margin: 20px;
+}
+p {
+  text-align: center;  
+}
+table {
+    display: flex;
+    justify-content: center;
+}

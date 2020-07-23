@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chap 49 - 52</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<h1>Chap 49 - 52 Quation # 1</h1>
+    <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Sign Up</button>
+    <div id="id01" class="modal">
+        <span onclick="document.getElementById('id01').style.display='none'" class="close"
+            title="Close Modal">&times;</span>
+        <form class="modal-content" action="/action_page.php">
+            <div class="container">
+                <h1>Sign Up</h1>
+                <p>Please fill in this form to create an account.</p>
+                <hr>
+                <label for="email"><b>Email</b></label>
+                <input type="text" placeholder="Enter Email" name="email" required>
+                <label for="psw"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="psw" required>
+                <label for="psw-repeat"><b>Repeat Password</b></label>
+                <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+                <label>
+                    <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+                </label>
+                <div class="clearfix">
+                    <button type="button" onclick="document.getElementById('id01').style.display='none'"
+                        class="cancelbtn">Cancel</button>
+                    <button type="submit" class="signupbtn">Sign Up</button>
+                </div>
+            </div>
+        </form>
+    </div>
+    <div> 
+        <h1>Chap 49 - 52 Quation # 2</h1>  
+        <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            <span id="continue">....</span><span id="showMore"> 
+            Doloribus sed, qui minima eius architecto obcaecati numquam 
+            laboriosam esse. Voluptate commodi illum, repellendus nisi 
+            esse nemo aliquid eveniet nulla molestias adipisci.</span></p>
+            <button id="more-Btn" onclick="moreFunction()" style="width: 75px;">Read More.</button>
+    </div>
+    <div>
+        <table id="table">
+            <tr>
+                <th>Index</th>
+                <th>Name</th>
+                <th>Class</th>
+            </tr>
+            <tr>
+                <td id="stdid1"></td>
+                <td id="std1"></td>
+                <td id="stdclass1"></td>
+                <td><button id="btn1" onclick="edit('1')">Edit</button></td>
+                <td><button id="btn1" onclick="del('1')">Delete</button></td>
+            </tr>
+            <tr>
+                <td id="stdid2"></td>
+                <td id="std2"></td>
+                <td id="stdclass2"></td>
+                <td><button id="btn2" onclick="edit('2')">Edit</button></td>
+                <td><button id="btn2" onclick="del('2')">Delete</button></td>
+            </tr>
+            <tr>
+                <td id="stdid3"></td>
+                <td id="std3"></td>
+                <td id="stdclass3"></td>
+                <td><button id="btn3" onclick="edit('3')">Edit</button></td>
+                <td><button id="btn3" onclick="del('3')">Delete</button></td>
+            </tr>
+            <tr>
+                <td id="stdid4"></td>
+                <td id="std4"></td>
+                <td id="stdclass4"></td>
+                <td><button id="btn4" onclick="edit('4')">Edit</button></td>
+                <td><button id="btn4" onclick="del('4')">Delete</button></td>
+            </tr>
+        </table>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>

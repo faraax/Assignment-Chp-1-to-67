@@ -1,0 +1,11 @@
+img {
+    width: 200px;
+    height: 150px;
+}
+/* Chap # 53-58 Question 5 part 'D' */
+.modal-open {
+    display: block;
+    width: 80%;
+    height: auto;
+    justify-content: center;
+}
